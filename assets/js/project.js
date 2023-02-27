@@ -45,8 +45,8 @@ const addProject = () => {
           alt="${dataProject.nameProject}"
         />
       </div>
-        <div class="name mt">
-          <h2>${dataProject.nameProject}</h2>
+        <div class="name">
+          <a href="project-detail.html">${dataProject.nameProject}</a>
           <p>durasi : ${duration(dataProject.starDate, dataProject.endDate)}</p>
         </div>
         <div class="text-info mt">
